@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción al mercadeo: definición, evolución y objetivos',
+    numeroUnidad: '2',
+    tituloUnidad: 'Estrategia de mercadeo y planificación',
   },
   menuPrincipal: {
     menu: [
@@ -15,14 +15,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición y conceptos fundamentales del mercadeo',
+        titulo: 'Elementos básicos de la estrategia de mercadeo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Tipo de mercado',
+            titulo: 'Segmentación del mercado',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Selección del mercado objetivo (targeting)',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Posicionamiento',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Propuesta de valor',
+            hash: 't_1_4',
           },
         ],
       },
@@ -30,32 +48,14 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Evolución del mercadeo',
+        titulo: 'Planificación estratégica en mercadeo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Orientación hacia el producto',
+            titulo: 'Plan estratégico de mercado',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Orientación hacia las ventas',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Orientación hacia el consumidor',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Orientación a la nueva era',
-            hash: 't_2_4',
           },
         ],
       },
@@ -63,7 +63,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Objetivos del mercadeo',
+        titulo: 'El <b>MIX DE MARKETING</b> (4Ps y 7Ps)',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -71,26 +71,20 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'El mercadeo en un entorno globalizado',
+        titulo: 'Implementación y control de la estrategia de mercadeo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'El mercado bajo una mirada internacional',
+            titulo: 'Evaluación de la estrategia de mercadeo',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Desafíos y retos del marketing internacional',
+            titulo: 'Control de la estrategia comercial',
             hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Algunos ejemplos',
-            hash: 't_4_3',
           },
         ],
       },
@@ -137,90 +131,77 @@ export default {
     },
     {
       referencia:
-        'Céspedes Sáenz, A. (2010). Principios de mercadeo: (5 ed.). Ecoe Ediciones.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69059?page=14',
+        'Mejía Trejo, J. (2017). Mercadotecnia digital: una descripción de las herramientas que apoyan la planeación estratégica de toda innovación de campaña web: ( ed.). Grupo Editorial Patria.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/40496?page=7',
     },
     {
       referencia:
-        'Baena Graciá, V. (2011). Fundamentos de marketing: entorno, consumidor, estrategia e investigación comercial: ( ed.). Editorial UOC.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/33480?page=9',
+        'SELLERS RUBIO, R. Introducción al marketing. ed. San Vicente(Alicante): ECU, 2013. 253 p.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/62288?page=69',
     },
     {
       referencia:
-        'Sánchez Herrera, J. Merino Sanz, M. J. & Santesmases Mestre, M. (2013). Fundamentos de marketing: ( ed.). Difusora Larousse - Ediciones Pirámide.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/96834?page=19',
+        'MARTÍNEZ SÁNCHEZ, J. M. Marketing. ed. Miami, FL: Firmas Press, 2010. 195 p.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/36395?page=181',
     },
     {
       referencia:
-        'Monferrer Tirado, D. (2013). Fundamentos de marketing: ( ed.). Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/51743?page=4',
-    },
-    {
-      referencia:
-        'Mesa Holguín, M. (2012). Fundamentos de marketing: ( ed.). Ecoe Ediciones.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69209?page=9',
-    },
-    {
-      referencia:
-        'Mesa Holguín, M. (2012). Fundamentos de marketing: ( ed.). Ecoe Ediciones.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69209?page=9',
-    },
-    {
-      referencia:
-        'UAPA. (2023). Marketing internacional: (1 ed.). Universidad Abierta para Adultos (UAPA).',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/243903?page=7',
+        'MARTÍNEZ SÁNCHEZ, J. M. Marketing. ed. Miami, FL: Firmas Press, 2010. 195 p.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/36395?page=179',
     },
   ],
   glosario: [
     {
-      termino: 'Cliente',
+      termino: 'Análisis FODA',
       significado:
-        'Persona o empresa que adquiere bienes o servicios ofrecidos por una organización. Es el foco central de las estrategias de mercadeo, ya que su satisfacción determina el éxito comercial.',
+        'Herramienta de planificación estratégica que permite identificar las Fortalezas, Oportunidades, Debilidades y Amenazas de una empresa o marca, para tomar decisiones basadas en su situación interna y el entorno.',
     },
     {
-      termino: 'Comportamiento del consumidor',
+      termino: 'Clientes objetivo (Target)',
       significado:
-        'Conjunto de actividades y procesos mentales que realiza una persona desde que detecta una necesidad hasta que toma la decisión de compra y evalúa su satisfacción.',
+        'Segmento específico del mercado al que una empresa dirige sus esfuerzos de mercadeo, basándose en características como edad, ubicación, comportamiento de compra, entre otros.',
     },
     {
-      termino: 'Demanda',
+      termino: 'Control de marketing',
       significado:
-        'Cantidad de un producto o servicio que los consumidores están dispuestos y pueden adquirir a diferentes precios en un periodo de tiempo determinado.',
+        'Evaluación continua de las estrategias y acciones de mercadeo para verificar si se están alcanzando los objetivos planteados y hacer ajustes cuando sea necesario.',
     },
     {
-      termino: 'Estrategia de mercadeo',
+      termino: 'Estrategia de diferenciación',
       significado:
-        'Plan diseñado por una organización para promover y vender sus productos o servicios, satisfaciendo las necesidades del mercado objetivo de forma competitiva y rentable.',
+        'Táctica mediante la cual una empresa busca destacar su producto o servicio frente a la competencia, ofreciendo características únicas que generen valor para el cliente.',
     },
     {
-      termino: 'Mercadeo (Marketing)',
+      termino: 'Implementación de la estrategia de mercadeo',
       significado:
-        'Conjunto de actividades orientadas a satisfacer necesidades y deseos del consumidor mediante la creación, comunicación, distribución y entrega de valor.',
+        'Fase en la que se ponen en práctica los planes y tácticas diseñados, asignando recursos, estableciendo responsabilidades y ejecutando acciones específicas para alcanzar los objetivos de mercadeo.',
     },
     {
-      termino: 'Globalización',
+      termino: 'Marketing mix (Mezcla de mercadeo)',
       significado:
-        'Proceso de integración económica, social, política y cultural entre países, que ha ampliado los mercados y ha obligado a las empresas a adaptar sus estrategias de mercadeo a diferentes contextos internacionales.',
+        'Conjunto de herramientas o variables (producto, precio, plaza, promoción, y en servicios también personas, procesos y evidencia física) que una empresa utiliza para alcanzar sus objetivos de mercadeo.',
     },
     {
-      termino: 'Mercado meta (target market)',
+      termino: 'Mercado meta (Segmento de mercado)',
       significado:
-        'Segmento específico del mercado al cual una empresa dirige sus esfuerzos de mercadeo, basado en características como edad, género, ubicación, comportamiento, entre otros.',
+        'Grupo de consumidores con características similares que comparten necesidades o deseos específicos que una empresa busca satisfacer.',
     },
     {
-      termino: 'Mix de mercadeo (Marketing Mix)',
+      termino: 'Planificación estratégica de mercadeo',
       significado:
-        'Conjunto de herramientas que las empresas utilizan para alcanzar sus objetivos de mercadeo. Se compone de las 4P: producto, precio, plaza (distribución) y promoción.',
+        'Proceso sistemático mediante el cual se definen los objetivos de mercadeo, se analizan recursos y el entorno, y se diseñan estrategias para lograr ventajas competitivas sostenibles.',
     },
     {
       termino: 'Posicionamiento',
       significado:
-        'Percepción que tiene el consumidor sobre una marca o producto en comparación con la competencia. Es el lugar que ocupa en la mente del cliente.',
+        'Imagen o percepción que tiene el público sobre una marca o producto en relación con la competencia, influenciada por factores como calidad, precio o beneficios diferenciales.',
     },
     {
-      termino: 'Segmentación de mercado',
+      termino: 'Propuesta de valor',
       significado:
-        'Proceso de dividir un mercado en grupos más pequeños de consumidores con características y necesidades similares, con el fin de diseñar estrategias más efectivas.',
+        'Declaración clara del beneficio que una empresa ofrece a sus clientes, explicando por qué su producto o servicio es la mejor opción para resolver sus necesidades.',
     },
   ],
 }

@@ -1,1 +1,1 @@
-module.exports = 'Introducción al mercadeo: definición, evolución y objetivos'
+module.exports = 'Estrategia de mercadeo y planificación'

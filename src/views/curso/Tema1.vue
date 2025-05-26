@@ -1,157 +1,298 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Definición y conceptos fundamentales del mercadeo'")
+  BannerInterno(:subTitulo="'1. Elementos básicos de la estrategia de mercadeo'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    p.mb-4 La comprensión de los conceptos básicos del mercadeo es esencial para quienes se desempeñan en contextos empresariales, ya que permite identificar las dinámicas del mercado y establecer estrategias orientadas a satisfacer las necesidades del consumidor.
-    .row.bg-morado.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.mb-4.pb-2.me-auto Definición y conceptos fundamentales del mercadeo
-          p.mb-5(data-aos="fade-up") En el PDF Definición y conceptos fundamentales del mercadeo, se exploran las nociones clave que sustentan esta disciplina, incluyendo su significado, origen, evolución conceptual y relación con el sistema económico. A través de este análisis, se sientan las bases para interpretar el papel del mercadeo en el desarrollo social, económico y organizacional, reconociendo su impacto en la toma de decisiones y en la creación de valor dentro de una economía dinámica y competitiva.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Definicion_y_conceptos_mercadeo.pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Definición y conceptos fundamentales del mercadeo 
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-          img.h-100(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
+    .row.mb-4
+      .col-3.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-5.png', alt='Texto descriptivo de la imagen')
+      .col-12.col-xl-9
+        .bg-morado-oscuro.p-4.text-white.h-100(data-aos='fade-up')
+          span La estrategia de mercadeo es el conjunto de decisiones y acciones planificadas que una organización diseña e implementa con el propósito de alcanzar sus metas comerciales, tales como aumentar las ventas, captar nuevos clientes, fidelizar los existentes y lograr un posicionamiento competitivo sostenible en el mercado. Esta estrategia es un proceso que requiere un enfoque sistemático y orientado al análisis, la innovación y la adaptación constante a los cambios del entorno. Se fundamenta en el conocimiento profundo del mercado, lo cual implica analizar factores internos y externos que pueden incidir en el comportamiento del consumidor, así como identificar tendencias emergentes, nuevas tecnologías, regulaciones y dinámicas competitivas. Entre los pilares esenciales de esta estrategia se encuentran la segmentación del mercado, que permite dividir a los consumidores en grupos más homogéneos; la diferenciación de la oferta, que busca destacar los atributos únicos del producto o servicio frente a la competencia; y la creación de valor, entendida como la capacidad de satisfacer necesidades específicas de forma efectiva y relevante para el cliente.
 
+    .row.mb-4
+      .col-12.col-xl-8
+        p.mb-4 Según Monferrer Tirado, D. (2013), una estrategia de mercadeo eficaz debe orientarse a captar la atención del consumidor, y a generar experiencias significativas que promuevan la lealtad y fortalezcan la relación marca cliente. 
+        .d-flex.bg-amarillo.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-6.svg', alt='Texto descriptivo de la imagen')
+          .my-auto.p-4.p-xl-0
+            p.pe-xl-3.mb-0 Para ello, es fundamental identificar oportunidades de mercado rentables, diseñar propuestas de valor diferenciadas que reflejen los beneficios que el cliente recibirá, y construir relaciones a largo plazo basadas en la confianza, la satisfacción y la comunicación constante. En este sentido, la estrategia de mercadeo actúa como un eje integrador entre los objetivos organizacionales y las necesidades del mercado, permitiendo a la empresa mantener su relevancia, competitividad y sostenibilidad a lo largo del tiempo.
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-7.png', alt='Texto descriptivo de la imagen')
+    
     #t_1_1.titulo-segundo(data-aos="flip-up")
       div.d-flex
         span.me-3 1.1
-        h2 Tipo de mercado
-
-    p.mb-4 Los mercados pueden clasificarse de diversas formas, dependiendo de la cantidad de participantes, del tipo de productos que se comercializan o de las características de los consumidores. Cada una de estas categorías ayuda a comprender mejor, en distintos contextos, cómo funciona la dinámica comercial.
-
-    h2 Según la cantidad de participantes en el mercado
-    p.mb-4 Existen diferentes estructuras de mercado, dependiendo de cuántos compradores y vendedores intervienen en él:
-
-    ImagenInfografica.color-secundario.mb-4.bg-white
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-9.png', alt='Descripción de la imagen')
-      .tarjeta.bg-white.p-4(x='25.5%' y='35%' numero='+')
-        .h5.mb-2 Monopolio
-        p Donde solamente hay una empresa que ofrece un producto o servicio, mientras que los consumidores son muchos. En este caso, la empresa controla totalmente el mercado, puesto que no tiene competencia directa, y generalmente existen barreras que impiden la entrada de nuevos competidores. 
-      .tarjeta.bg-white.p-4(x='37.2%' y='16%' numero='+')
-        .h5.mb-2 Oligopolio
-        p Se da cuando pocas empresas dominan la oferta del mercado, aunque los consumidores siguen siendo numerosos. Estas empresas pueden influir en los precios, porque su reducido número les permite tener cierto control sobre las condiciones del mercado.
-      .tarjeta.bg-white.p-4(x='60%' y='16%' numero='+')
-        .h5.mb-2 Competencia monopolística
-        p Es uno de los tipos más comunes. Aquí, hay muchas empresas que ofrecen productos similares, pero con características que los diferencian, como el diseño, la calidad o la marca, y también cuenta con muchos compradores. Esto da lugar a un entorno donde las decisiones de consumo se ven influenciadas, tanto por el precio como por la percepción del valor del producto.
-      .tarjeta.bg-white.p-4(x='74.5%' y='35%' numero='+')
-        .h5.mb-2 Competencia perfecta
-        p Modelo teórico donde muchas empresas venden productos completamente iguales y ningún productor puede influir en el precio. En este tipo de mercado, los precios se determinan de forma natural por la interacción entre la oferta y la demanda, y cada empresa simplemente decide cuánto producir en función de ese precio de equilibrio.
-
-    h2 Según el tipo de producto que se comercializa
-
-    p.mb-4 Cuando se observa el tipo de producto o transacción que se realiza, también es posible dividir los mercados en diferentes clases:
+        h2 Segmentación del mercado
 
     .row.mb-4
-      .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-        img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7.col-xl-8
-        AcordionA(tipo="b")
-          .div(titulo="Mercado abierto")
-            p Está relacionado con la compra y venta de fondos públicos, siendo gestionado generalmente por el banco central de un país. Este mercado cumple un papel importante en el control de la economía.
-          .div(titulo="Mercado de cambios")
-            p Se refiere a la compraventa de divisas o monedas extranjeras. Puede operar al contado, cuando las transacciones se liquidan de forma inmediata, o a futuro, si se pacta la entrega y el pago de la divisa para una fecha determinada más adelante.
-          .div(titulo="Mercado de capitales")
-            p Donde se realizan operaciones financieras a mediano y largo plazo. Este se divide en dos grandes áreas: 
-            .div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>Mercado de crédito</b>, que funciona mediante préstamos ofrecidos por bancos o entidades financieras.
-            .div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>Mercado de valores</b>, donde se negocian acciones, bonos y otros títulos a través de la bolsa.
-          .div(titulo="Mercado de futuros")
-            p Es otro tipo particular, donde se negocian contratos para comprar o vender productos en una fecha futura, pero a un precio acordado de antemano. Es útil para protegerse contra la variación de precios.
-          .div(titulo="Mercado negro")
-            p Agrupa aquellas transacciones que se realizan fuera del marco legal, como la compraventa de productos ilegales o sin registro.
+      .col-12.col-lg-10.mx-auto
+        p.mb-2.text-bold Segmentar un mercado implica:
+        p.mb-3 Dividir un grupo amplio y diverso de consumidores en subgrupos más pequeños que comparten características similares.
+        .row.bg-morado-claro.p-4.py-xl-0(data-aos='fade-up')
+          .col-4.d-none.d-lg-block
+            img(src='@/assets/curso/unidad/img-8.png', alt='Texto descriptivo de la imagen')
+          .col-12.col-lg-8.d-flex.p-4.p-xl-0
+            p.my-auto  Esta práctica permite a las empresas enfocar mejor sus esfuerzos comerciales, adaptando los productos, mensajes y canales de distribución a las necesidades, preferencias y comportamientos particulares de cada grupo.
+      .col-12.col-lg-10.mx-auto
+        .row.bg-morado.p-4.py-xl-0(data-aos='fade-up')
+          .col-12.col-lg-8.d-flex.p-4.p-xl-0
+            p.my-auto.py-xl-4 No todos los consumidores tienen los mismos intereses ni valoran los productos de la misma manera; por eso, conocer quiénes son y qué los motiva resulta fundamental para diseñar estrategias más eficaces.
+          .col-4.d-none.d-lg-block
+            img(src='@/assets/curso/unidad/img-9.png', alt='Texto descriptivo de la imagen')
 
-    h2 Según las características de los consumidores
+    p.mb-4 De acuerdo con Lamb, Toro, J. M. D. & Villanueva, J. (2017), la segmentación facilita la toma de decisiones estratégicas al identificar nichos o grupos de consumidores que presentan un mayor potencial de respuesta positiva hacia la oferta de la empresa. La segmentación no solo mejora la comunicación con el cliente, también optimiza el uso de los recursos y ayuda a construir una identidad de marca más coherente y reconocible.
+    p.mb-4 Los pasos para desarrollar una segmentación de mercado, son:
 
-    p.mb-4 Otra forma de clasificar los mercados, es observando quiénes son los compradores:
-
-    .row.position-relative.mb-0.py-4.bg-fondo-slider.bg-full-width
+    .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Mercado de consumo
-              p Está compuesto por individuos o familias que adquieren productos para su uso personal. Es el más visible, debido a que abarca productos cotidianos como alimentos, ropa, electrodomésticos, entre otros.
+              p.text-bold Definición del mercado total
+              p El primer paso es identificar a qué mercado general se dirige la empresa. Esto incluye a todas las personas o entidades que podrían tener interés o necesidad del producto. En el caso de una línea de maquillaje con beneficios para la piel, el mercado total podría ser todas las personas que usan productos cosméticos.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Selección de criterios de segmentación
+              p.mb-3 Una vez delimitado el mercado general, es necesario elegir las variables que se usarán para dividirlo. Estas variables pueden ser:
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p <b>Demográficas:</b> edad, género, nivel de ingresos, ocupación.
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p <b>Geográficas:</b> país, ciudad, clima, zona urbana o rural.
+
+              div.d-flex.mb-3
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+                p Psicográficas: estilo de vida, valores, intereses.
+              span <b>Conductuales:</b> frecuencia de uso, lealtad a la marca, beneficios buscados.
             .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Mercado de servicios
-              p En este mercado, lo que se ofrece no son productos físicos, sino actividades o prestaciones como la educación, la salud, el transporte o los servicios financieros, que los consumidores requieren en su día a día.
+              p.text-bold Identificación de los segmentos
+              p En este paso se aplican los criterios seleccionados para agrupar a los consumidores. La idea es formar conjuntos relativamente homogéneos en su comportamiento y necesidades. Cada segmento debe ser medible, accesible, sustancial (es decir, suficientemente grande) y viable en términos comerciales.
             .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-              p.text-bold Mercado de negocios
-              p O también llamado mercado industrial, está formado por empresas que compran bienes y servicios a otras organizaciones. Lo hacen con el objetivo de usarlos en sus procesos productivos, integrarlos en nuevos productos o revenderlos. Este mercado es muy importante porque genera un volumen de transacciones elevado y requiere un enfoque comercial más técnico y estratégico.
+              p.text-bold Evaluación y selección de los segmentos más atractivos
+              p No todos los segmentos detectados tienen el mismo potencial. Es necesario evaluar factores como el tamaño, la rentabilidad esperada, el nivel de competencia y la capacidad de la empresa para atenderlos adecuadamente. Los segmentos más prometedores son seleccionados como <b>mercados meta.</b>
             .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Desarrollo de perfiles de los segmentos 
+              p Se elabora una descripción detallada de cada segmento: quiénes lo conforman, qué desean, qué compran, dónde lo hacen, cómo se informan, qué valores priorizan. Este perfil es útil para diseñar mensajes y propuestas que conecten mejor con ese grupo.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
 
-    .d-flex.align-items-start.bg-amarillo-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-      img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-49.svg', alt='Texto descriptivo de la imagen')
-      .my-auto.p-4.p-xl-0
-        p.pe-xl-3.mb-0 En conjunto, los mercados de consumo, de servicios y de negocios, representan gran parte del movimiento económico mundial. Por eso, conocer sus características es fundamental para cualquier profesional que se dedique al <i>marketing</i>, dado que permite diseñar estrategias adecuadas a las necesidades de cada tipo de cliente.
-
-    h2 Factores básicos del mercadeo
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      div.d-flex
+        span.me-3 1.2
+        h2 Selección del mercado objetivo (<i>targeting</i>)
 
     .row.mb-4
-      .col-4.d-none.d-xl-block(data-aos="zoom-in")
-        img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8
-        .mb-4.bg-morado-claro.p-4(data-aos="fade-left")
-          span Para lograr un resultado favorable dentro de un mercado específico, tanto la empresa como la persona encargada de las actividades de mercadeo, cuentan con un conjunto de elementos que pueden utilizar y adaptar, según las metas que se propongan alcanzar. Estos elementos, que pueden ser organizados y combinados de diferentes maneras dependiendo de la estrategia, conforman lo que se conoce como la mezcla de mercadeo o <i>marketing mix</i>.
-        span Estos elementos, pueden adaptarse y combinarse, según las metas de la organización; conforman lo que comúnmente se llama la mezcla de mercadeo o <b>marketing mix</b>. Pero en lugar de limitarse a las tradicionales 4P del <i>marketing</i> (Producto, Precio, Plaza y Promoción), esta representación amplía el concepto, incluyendo 12 elementos:
-
-    .row.mb-4
-      .col-12.col-lg-7.col-xl-8
-        AcordionA(tipo="b")
-          .div(titulo="Producto")
-            p Se refiere a lo que se ofrece al mercado, que puede ser un bien o servicio. Debe satisfacer una necesidad o deseo del consumidor.
-          .div(titulo="Precio")
-            p Es el valor monetario que el cliente debe pagar para adquirir el producto. Incluye estrategias de fijación de precios competitivos.
-          .div(titulo="Comunicación")
-            p Abarca todas las formas en las que la empresa informa y persuade a los clientes, como la publicidad, promoción y <i>marketing</i> digital.
-          .div(titulo="Distribución")
-            p Trata de cómo hacer llegar el producto al consumidor final, incluyendo canales de venta, puntos de distribución y cobertura geográfica.
-          .div(titulo="Empaque")
-            p No solo protege el producto, también comunica, atrae visualmente y puede influir en la decisión de compra.
-          .div(titulo="Poder")
-            p Hace referencia al nivel de influencia que tiene la empresa o marca en el mercado, frente a sus competidores, canales o clientes.
-      .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-        img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
+        p.mb-4 Una vez completado el proceso de segmentación y definidos los distintos grupos de consumidores que componen el mercado, el siguiente paso consiste en elegir a cuáles de estos segmentos la empresa dirigirá su estrategia de mercadeo. Esta elección estratégica se denomina selección del mercado objetivo o <i>targeting.</i>
+        .d-flex.bg-naranja.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-15.svg', alt='Texto descriptivo de la imagen')
+          .my-auto.p-4.p-xl-0
+            p.pe-xl-3.mb-0 El <i>targeting</i> no se limita a escoger un grupo de consumidores de forma arbitraria; requiere una evaluación cuidadosa y comparativa de cada segmento identificado. El objetivo es determinar cuál o cuáles segmentos ofrecen las mejores oportunidades en términos de rentabilidad, factibilidad operativa, alineación con los recursos disponibles y afinidad con la identidad de la marca.
+      
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-16.png', alt='Texto descriptivo de la imagen')
+    h2 ¿Cómo se realiza la selección del mercado objetivo?
+    p.mb-4 El proceso de <i>targeting</i> incluye los siguientes pasos:
 
     .row.mb-4
       .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-        img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7.col-xl-8
         AcordionA(tipo="b")
-          .div(titulo="Relaciones públicas")
-            p Son acciones que buscan mejorar la imagen y la relación de la empresa con diferentes públicos, como medios, comunidades y autoridades.
-          .div(titulo="Inteligencia de mercados")
-            p Consiste en recopilar y analizar información sobre los consumidores, la competencia y las tendencias del mercado, para tomar decisiones acertadas.
-          .div(titulo="Servicio postventa")
-            p Incluye todo el acompañamiento al cliente después de la compra, como garantías, soporte técnico y atención al cliente.
-          .div(titulo="Marca")
-            p Es la identidad del producto o empresa. Una marca fuerte, genera confianza y preferencia.
-          .div(titulo="Logística")
-            p Implica la gestión eficiente de los recursos, tiempos y movimientos, para que el producto esté disponible en el momento y lugar adecuados.
-          .div(titulo="Innovación")
-            p Aporta valor a través de la mejora constante en productos, procesos o formas de atención, permitiendo a la empresa mantenerse competitiva.
+          .div(titulo="Análisis del atractivo de cada segmento")
+            p.mb-3En esta etapa, se estudian factores como:
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b>Tamaño del segmento:</b> ¿Cuántos consumidores potenciales lo componen? ¿Existe una demanda significativa?
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b>Tasa de crecimiento:</b> ¿Se espera que el segmento aumente en número o poder adquisitivo en el futuro cercano?
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b>Nivel de competencia:</b> ¿Qué tan saturado está el segmento? ¿Existen marcas fuertes dominándolo?
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b>Rentabilidad esperada:</b> ¿Es un grupo dispuesto a pagar precios que justifiquen la inversión?
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b>Estabilidad o sensibilidad al entorno:</b> ¿Qué tan vulnerable es ese grupo a cambios económicos, tecnológicos o sociales?
+          .div(titulo="Evaluación de la capacidad de la empresa para atender al segmento")
+            p.mb-3 La empresa debe considerar:
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p Recursos disponibles (humanos, tecnológicos, logísticos).
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p Experiencia previa con clientes similares.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p Capacidad de adaptación del producto a las exigencias del segmento.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p Afinidad entre los valores del segmento y los de la marca.
+          .div(titulo="Selección de la estrategia de cobertura del mercado")
+            p.mb-3 La empresa puede optar por una de las siguientes estrategias de cobertura: 
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b><i>Marketing</i> indiferenciado (masivo):</b> se ignoran las diferencias entre segmentos y se ofrece un producto genérico para todo el mercado. No es recomendable cuando hay diversidad de necesidades.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b><i>Marketing</i> diferenciado (segmentado):</b> se eligen dos o más segmentos y se ofrece una estrategia distinta para cada uno (productos, mensajes, canales).
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b><i>Marketing</i> concentrado (de nicho):</b> se enfoca en un solo segmento con una oferta muy especializada.
+            div.d-flex
+              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+              p <b><i>Marketing</i> personalizado (micromarketing):</b> se ajustan los productos y mensajes casi individualmente, como en el marketing digital de precisión.
+            span La elección de la estrategia dependerá del análisis realizado, la capacidad de respuesta de la empresa y la naturaleza del producto.
+    
+    #t_1_3.titulo-segundo(data-aos="flip-up")
+      div.d-flex
+        span.me-3 1.3
+        h2 Posicionamiento
+  
+    .row.bg-fondo-1.bg-full-width.py-4.mb-4
+      div.px-5.pb-md-3
 
-    .d-flex.align-items-start.bg-morado-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-5
-      img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-17.svg', alt='Texto descriptivo de la imagen')
-      .my-auto.p-4.p-xl-0
-        p.pe-xl-3.mb-0.text-white Esta mezcla no es rígida, sino que debe adaptarse, según las necesidades del mercado, el perfil del consumidor y los recursos de la empresa.
+        .row.mb-4 
+          .col-12.col-xl-9
+            p.mb-4 El <b>posicionamiento</b> es una fase estratégica del mercadeo que busca establecer una percepción clara, positiva y diferenciada de un producto, servicio o marca en la mente del consumidor. No se trata simplemente de lo que la empresa dice sobre su producto, sino de cómo el cliente lo percibe en comparación con otras alternativas disponibles en el mercado.
+            .bg-morado.p-4.mb-4(data-aos='fade-up')
+              span Según Martínez Sánchez, J. M. (2010), posicionar consiste en “crear una posición propia en la mente del consumidor”, lo que implica destacar uno o varios atributos que hagan que el producto sea memorable, relevante y preferido frente a sus competidores. Esta percepción debe ser <b>coherente, consistente y significativa</b>, y debe mantenerse a lo largo del tiempo.
+            span El posicionamiento influye directamente en la manera en que se comunican los valores del producto, en el diseño del empaque, en los canales de distribución elegidos y en el tono de los mensajes publicitarios. También orienta la experiencia del cliente con la marca, desde el primer contacto hasta la postventa.
+          .col-3.d-none.d-xl-block
+            img(src='@/assets/curso/unidad/img-18.png', alt='Texto descriptivo de la imagen')
+    
+    .row
+      .col-auto(data-aos='fade-up')
+        .bg-naranja-oscuro.p-4.mb-4
+          span.text-bold ¿Cómo se desarrolla una estrategia de posicionamiento? 
+    
+    .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Identificación de los atributos relevantes para el cliente
+              p Se debe analizar qué características, beneficios o valores son más importantes para el mercado objetivo. Estos pueden incluir calidad, precio, facilidad de uso, sostenibilidad, innovación, respaldo profesional, entre otros.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Análisis de la competencia
+              p Implica estudiar cómo están posicionadas otras marcas que ofrecen productos similares. ¿Qué promesas hacen? ¿Cómo se comunican? ¿Qué imagen proyectan? Este análisis permite identificar <b>espacios no ocupados</b> o debilidades que puedan ser aprovechadas.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Determinación de la propuesta de valor
+              p Es el conjunto de beneficios funcionales, emocionales o simbólicos que la marca ofrece al consumidor. Esta propuesta debe ser <b>única, creíble y deseada por el público meta</b>. Debe responder a la pregunta: ¿por qué elegir este producto y no otro?
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Formulación del enunciado de posicionamiento
+              p El enunciado sintetiza cómo la marca desea ser percibida. Una fórmula común es:<br><br>Para <i>[segmento objetivo], [marca] es [categoría del producto] que ofrece [beneficio clave] porque [justificación o evidencia del valor].</i><br><br>Este enunciado sirve como guía para la estrategia comunicativa, pero no se utiliza como mensaje publicitario literal.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+              p.text-bold Implementación y consistencia del posicionamiento
+              p Una vez definido, el posicionamiento debe aplicarse de manera uniforme en todos los puntos de contacto con el cliente: publicidad, empaque, sitio web, atención al cliente, experiencia en tienda, entre otros. La coherencia en todos los niveles es fundamental para consolidar la percepción deseada.
+            .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
+
+    #t_1_4.titulo-segundo(data-aos="flip-up")
+      div.d-flex
+        span.me-3 1.4
+        h2 Propuesta de valor
+
+    p.mb-4 La propuesta de valor es uno de los elementos fundamentales de la estrategia de mercadeo, dado que representa la promesa que una empresa hace a sus clientes sobre los beneficios específicos que recibirán al elegir sus productos o servicios. Es mucho más que una simple descripción del producto: implica explicar cómo y por qué la oferta de la empresa resuelve un problema o mejora la vida del consumidor, de una manera mejor que las alternativas existentes.
+    p.mb-4 Monferrer Tirado, D. (2013), afirman que <b>una buena propuesta de valor debe ser:</b>
+
+    .row.bg-naranja.p-4.py-xl-0.mb-4(data-aos='fade-up')
+      .col-12.col-xl-8.d-flex
+        .my-auto
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+            p <b>Clara:</b> fácil de entender por el público al que se dirige.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+            p <b>Convincente:</b> debe mostrar por qué vale la pena elegir esa marca.
+          div.d-flex.mb-4
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
+            p <b>Difícil de imitar:</b> para asegurar una ventaja competitiva sostenible en el tiempo.
+          span La propuesta de valor es la base sobre la cual se diseñan todas las decisiones estratégicas del <i>marketing</i>, desde el desarrollo del producto hasta la comunicación, la distribución y el servicio al cliente.
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-24.png', alt='Texto descriptivo de la imagen') 
+
+    .row.bg-fondo-2.bg-full-width.py-4.mb-4
+      div.px-5
+
+        h2 Componentes de una propuesta de valor
+        p.mb-4 Una propuesta de valor efectiva suele integrar tres dimensiones:
+
+        .row.justify-content-center
+          .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-25.svg', style='width: 80px')
+              p.text-bold.mb-4.text-center Valor funcional
+              p.px-1.text-small.mb-0.text-center Qué necesidad práctica satisface el producto. (Ej. protección solar, tratamiento antiacné).
+          .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-26.svg', style='width: 80px')
+              p.text-bold.mb-4.text-center Valor emocional
+              p.px-1.text-small.mb-0.text-center Cómo hace sentir al consumidor. (Ej. seguridad, autoestima, bienestar).
+          .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-27.svg', style='width: 80px')
+              p.text-bold.mb-4.text-center Valor simbólico
+              p.px-1.text-small.mb-0.text-center Qué representa usar esa marca. (Ej. estilo de vida saludable, conciencia ecológica, sofisticación).
+
+    .row
+      .col-auto
+        .bg-naranja-oscuro.p-4(data-aos='fade-up')
+          span.text-bold ¿Cómo se construye una propuesta de valor?
+    
+    ImagenInfografica.color-secundario.mb-5.bg-white
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/unidad/img-28.png', alt='Descripción de la imagen')
+      .tarjeta.bg-white.p-4(x='28.6%' y='20%' numero='+')
+        .h5.mb-2 Comprensión del cliente
+        p Antes de prometer beneficios, es necesario conocer bien al consumidor: ¿Qué desea? ¿Qué le preocupa? ¿Qué le incomoda de las opciones actuales? Aquí se integran los resultados del proceso de segmentación y <i>targeting.</i>
+      .tarjeta.bg-white.p-4(x='73%' y='28%' numero='+')
+        .h5.mb-2 Diseño de beneficios diferenciales
+        p El producto o servicio debe ofrecer algo que no esté disponible fácilmente en la competencia o que lo haga de una forma más eficaz o deseable. Puede tratarse de una combinación única de características, de una experiencia superior, o de un modelo de atención más humano o accesible.
+      .tarjeta.bg-white.p-4(x='78.1%' y='56.6%' numero='+')
+        .h5.mb-2 Redacción de la propuesta de valor
+        p Debe ser una declaración concisa, relevante y diferenciadora. Puede adoptar diferentes formas, según el canal o público (más técnica para inversores, más emocional para campañas publicitarias), pero su esencia debe ser consistente.
+      .tarjeta.bg-white.p-4(x='23.4%' y='61%' numero='+')
+        .h5.mb-2 Identificación del problema o necesidad a resolver
+        p Toda propuesta de valor parte de la solución a un problema real o percibido. El producto debe aportar una mejora tangible (física, emocional o social).
 
     .bg-full-width.border-top-9-azul
       .px-5.pt-5.pb-0
@@ -159,16 +300,14 @@
         .row
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/articulo.oa?id=151330912008") Vélez Maya, T. (2005). Mercadeo de servicios. Un documento para Fundamentos de Mercadeo. Revista Ciencias Estratégicas.
-            
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/articulo.oa?id=99342682007") Estrategias de mercadeo verde utilizadas por empresas a nivel mundial
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/AWLWbo-lf5s?si=NxvubGWhlwcx6qoQ") [Vídeo] Universidad Continental (2024) - Concepto de marketing y creación de valor
-            
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/VXgXPTRwPCA?si=Rk0KUInzX60T7rVz") [Vídeo] Fundamentos del marketing estratégico - OA U2
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/6Arwtzh9-Go?si=w--APC2MaxmZ0BIu") [Vídeo] Universidad de Deusto (2025) - Fundamentos de Marketing: El proceso de compra
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/svdtFJqViHo?si=QBDvaff2BCtZ7fJ8") [Vídeo] MKTING1-S1: Aspectos generales del marketing
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')

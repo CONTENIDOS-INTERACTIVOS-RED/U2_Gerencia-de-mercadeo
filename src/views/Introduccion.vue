@@ -3,51 +3,44 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
+    .row.mb-4
+      .col-12.col-xl-8
+        p.mb-4 Bienvenidos a la Unidad 2, Estrategias de mercadeo y planificación. La presente unidad, ofrece una aproximación integral al análisis estratégico del mercadeo y su adecuada planificación, permitiendo identificar cómo las decisiones en este campo impactan el posicionamiento y la sostenibilidad de las organizaciones. Su estudio se articula con los propósitos generales del curso, dado que fortalece la capacidad de tomar decisiones orientadas al mercado y a las necesidades del cliente.
+        .d-flex.bg-naranja-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-1.svg', alt='Texto descriptivo de la imagen')
+          .my-auto.p-4.p-xl-0
+            p.pe-xl-3.mb-0 A lo largo de esta unidad se invita a reflexionar sobre el valor del mercadeo como función estratégica y no solo operativa, reconociendo su impacto en el crecimiento profesional y el ejercicio laboral en diversas áreas. En este sentido, se espera que el contenido motive al estudiante a aplicar estos conceptos tanto en proyectos académicos como en contextos reales, fomentando una visión crítica y propositiva.
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-2.png', alt='Texto descriptivo de la imagen')
+
     .row.bg-fondo-1.bg-full-width.py-4.mb-4
       div.px-5.pb-md-3
 
+        p.mb-4 El principal resultado de aprendizaje que se busca alcanzar es el desarrollo de la capacidad para analizar de manera estratégica el mercadeo y la planificación, integrando herramientas teóricas y prácticas que favorezcan la formulación de propuestas eficientes, coherentes con los objetivos empresariales. 
+        p.mb-4 La unidad se estructura en cuatro temas principales:
+
         .row.mb-4
-          .col-12.col-xl-8
+          .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+            img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
+          .col-12.col-lg-7.col-xl-8
+            AcordionA(tipo="b")
+              .div(titulo="Tema 1")
+                p Se abordan los elementos básicos de una estrategia de mercadeo, destacando la importancia de conocer el entorno, segmentar el mercado y definir objetivos claros.
+              .div(titulo="Tema 2")
+                p Se profundiza en la planificación estratégica, entendida como un proceso estructurado que guía la toma de decisiones, desde el análisis situacional hasta la definición de acciones y recursos necesarios para alcanzar los propósitos establecidos.
+              .div(titulo="Tema 3")
+                p Un componente central de la unidad es el estudio del <i>mix</i> de marketing. Se analiza tanto su versión tradicional de 4Ps (producto, precio, plaza y promoción) como su versión ampliada a 7Ps, que incorpora aspectos propios del sector de servicios: personas, procesos y evidencia física. Este análisis permite entender cómo se combinan estos elementos para construir propuestas de valor diferenciadas.
+              .div(titulo="Tema 4")
+                p Se examinan los procesos de implementación y control de las estrategias, considerando su seguimiento, evaluación y ajuste, elementos claves para garantizar su efectividad en contextos cambiantes.
 
-            p.mb-4 La Unidad 1 <b>Introducción al mercadeo: definición, evolución y objetivos</b>, ofrece una visión general del mercadeo como disciplina fundamental dentro del ámbito empresarial, proporcionando un primer acercamiento a sus fundamentos, evolución histórica y propósitos estratégicos. El estudio de esta unidad representa un punto de partida fundamental para quienes se preparan en áreas administrativas, comerciales o de gestión empresarial. 
-            .d-flex.align-items-start.bg-naranja.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-1.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-0 En la actualidad, el mercado tiene gran importancia para las organizaciones, por tanto, entender su dinámica les permite anticiparse a los cambios en las preferencias del consumidor, identificar nuevas oportunidades de negocio y diseñar productos o servicios que generen valor. Conocer el mercado no solo es una ventaja, es también una necesidad para asegurar la sostenibilidad y el crecimiento de cualquier organización.
-            p.mb-4 Este recorrido formativo permitirá identificar los conceptos fundamentales del mercadeo, analizar su evolución a lo largo del tiempo y reconocer sus principales objetivos; asimismo, se examinará el papel del mercadeo en el contexto de la globalización, destacando cómo influye en la dinámica de los mercados y en las estrategias empresariales.
-            span La unidad está organizada en cuatro temas: 
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-2.png', alt='Texto descriptivo de la imagen')
-
-        .row.mb-4.justify-content-center
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-3.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Primer tema
-              p.px-1.text-small.mb-0.text-center Se aborda la definición y los conceptos fundamentales del mercadeo, estableciendo las bases conceptuales.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-4.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Segundo tema
-              p.px-1.text-small.mb-0.text-center Se explora su evolución histórica, destacando las transformaciones que ha experimentado.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-5.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Tercer tema
-              p.px-1.text-small.mb-0.text-center Se analizan los objetivos del mercadeo en el contexto empresarial.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-6.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Cuarto tema
-              p.px-1.text-small.mb-0.text-center Se reflexiona sobre su papel en un entorno globalizado, considerando los desafíos y oportunidades actuales para las organizaciones.
-
-    .row
-      .col-4.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-7.png', alt='Texto descriptivo de la imagen')
+    .row.mb-4
       .col-12.col-xl-8
-        p.mb-4 Al finalizar esta unidad, se espera que los estudiantes logren manejar temas relacionados con el mercadeo, su evaluación y objetivos, desarrollando así una comprensión sólida que le permita aplicarlos en contextos reales. Se busca fomentar la capacidad analítica frente a los cambios del entorno comercial, promoviendo una visión estratégica que fortalezca la toma de decisiones dentro de las organizaciones.
-        .bg-azul.p-4(data-aos='fade-up')
-          span Se invita a los estudiantes a participar activamente, aportando sus experiencias y reflexiones en las diferentes actividades propuestas. Es recomendable contar con una actitud crítica y propositiva, así como con disposición para el trabajo autónomo y colaborativo. No se requieren conocimientos previos específicos, pero sí un compromiso constante con el proceso de aprendizaje.
+        .bg-morado-oscuro.text-white.p-4(data-aos='fade-up')
+          p.mb-4 Se espera una participación activa, responsable y comprometida por parte del estudiante, así como la disposición para analizar casos, proponer soluciones y trabajar colaborativamente.
+          span El conocimiento adquirido en la unidad anterior servirá como base para avanzar con mayor profundidad en la comprensión de los conceptos presentados. Bienvenidos.
+
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-4.png', alt='Texto descriptivo de la imagen')
 
     p
 

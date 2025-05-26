@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La unidad 1: Introducción al mercadeo: definición, evolución y objetivos, proporciona los fundamentos esenciales para comprender el papel estratégico del mercadeo en el entorno empresarial contemporáneo. A través del estudio de sus conceptos básicos, evolución histórica, objetivos clave y su impacto en un contexto globalizado, esta unidad permite al estudiante construir una visión integral del mercadeo como herramienta para generar valor, fortalecer relaciones con los clientes y responder a los desafíos del mercado actual. Esta base conceptual prepara al estudiante para analizar e implementar estrategias efectivas de mercadeo, contribuyendo así al crecimiento y sostenibilidad de las organizaciones.
+      p(data-aos="fade-up").mb-5 La unidad 2: Estrategia de mercadeo y planificación, brinda una comprensión integral sobre el papel estratégico del mercadeo en la toma de decisiones organizacionales, más allá de su enfoque operativo. A través del análisis del entorno, la segmentación del mercado, la formulación de objetivos y la definición de estrategias, se establecen las bases para diseñar propuestas de valor diferenciadas y ejecutar planes de mercadeo coherentes y sostenibles. Esta unidad permite al estudiante desarrollar habilidades para integrar herramientas prácticas como el análisis FODA, el marketing mix (4P y 7P) y los procesos de control, consolidando su capacidad para generar soluciones de impacto en contextos reales de negocio.
 
       .row.justify-content-center
         .col-lg-12.mb-5

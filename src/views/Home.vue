@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los primeros intercambios en las civilizaciones antiguas hasta los sofisticados mercados globales de hoy, el mercadeo ha sido una pieza clave en el desarrollo económico y social. En esta unidad, se presenta una mirada integral a esta disciplina fundamental, abordando su definición, evolución histórica y principales objetivos estratégicos dentro de las organizaciones.
+              p.descripcion.mb-4 Desde un enfoque estratégico, el mercadeo se consolida como un pilar fundamental para el posicionamiento y sostenibilidad de las organizaciones en entornos competitivos. En esta segunda unidad, se profundiza en el diseño de estrategias de mercadeo, la planificación de acciones comerciales, la segmentación del mercado y el análisis del marketing mix. A través del estudio de estos elementos, se desarrollan competencias clave para tomar decisiones alineadas con las necesidades del cliente, la realidad del entorno y los objetivos empresariales.
 
-              p #[b ¡Prepárese para enfrentar los desafíos del entorno comercial con análisis, estrategia y visión global!]
+              p #[b ¡Prepárese para desarrollar propuestas de valor impactantes y estrategias comerciales exitosas!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
