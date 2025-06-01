@@ -21,7 +21,7 @@
               SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
                 div.custom-image-card.rounded-8px
                   img.mb-4(src='@/assets/curso/unidad/img-31.png', alt='Descripción de la imagen')
-                  div.mb-4
+                  div.mb-4.px-4
                     p.text-bold.text-center Diagnóstico o análisis de la situacion actual. 
                 div.custom-image-card.rounded-8px
                   img.mb-4(src='@/assets/curso/unidad/img-32.png', alt='Descripción de la imagen')

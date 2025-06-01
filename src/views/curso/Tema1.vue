@@ -118,7 +118,7 @@
       .col-12.col-lg-7.col-xl-8
         AcordionA(tipo="b")
           .div(titulo="Análisis del atractivo de cada segmento")
-            p.mb-3En esta etapa, se estudian factores como:
+            p.mb-3En Esta etapa, se estudian factores como:
             div.d-flex
               img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
               p <b>Tamaño del segmento:</b> ¿Cuántos consumidores potenciales lo componen? ¿Existe una demanda significativa?
