@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Implementación y control de la estrategia de mercadeo'")
+    BannerInterno(:subTitulo="'4. Implementación y control de la estrategia de mercadeo'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
       .row.mb-4.mx-0
@@ -49,7 +49,7 @@
         div.px-5.pb-md-3
           figure
             .video
-              iframe(width='560' height='315' src='https://www.youtube.com' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen) 
+              <iframe width="1905" height="748" src="https://www.youtube.com/embed/pjm1eIm-NgU" title="Evaluación de la estrategia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       #t_4_2.titulo-segundo(data-aos="flip-up")
         div.d-flex
@@ -188,6 +188,36 @@ export default {
             {
               id: 'd',
               texto: 'Segmentación del mercado y clientes',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Un emprendimiento estudia a sus clientes para conocer qué les molesta de las marcas actuales y qué beneficios esperan recibir antes de lanzar su oferta.<br><br>Pregunta: ¿Cuál es el primer paso para construir una propuesta de valor orientada al cliente?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Comparar atributos del producto líder',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Diseñar un mensaje persuasivo',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Comprender al público objetivo',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aplicar descuentos promocionales',
               esCorrecta: false,
             },
           ],

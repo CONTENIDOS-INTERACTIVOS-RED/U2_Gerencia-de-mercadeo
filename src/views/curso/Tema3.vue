@@ -36,7 +36,7 @@
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Las 7P
             p.mb-5(data-aos="fade-up") La mezcla ampliada de <i>marketing</i>, conocida como las 7P, es un marco esencial para diseñar estrategias integrales que consideren tanto aspectos tangibles como intangibles de la oferta empresarial. En el PDF Las 7P, se examinan en profundidad los elementos clave del producto, precio, plaza, promoción, personas, procesos y evidencia física, presentando criterios, objetivos y ejemplos que permiten analizar y mejorar cada componente del <i>marketing mix</i> en función del mercado y del cliente.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Las 7P.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Las 7P
       
